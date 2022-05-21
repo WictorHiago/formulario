@@ -21,8 +21,8 @@ function meuEscopo(){
 
         console.log(pessoas);
         //insere no html um <p> com todos os campos
-        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ` +
-        ` ${peso.value} ${altura.value}</p>`;
+        resultado.innerHTML += `<p> <strong>Nome:</strong> ${nome.value} <strong>Sobrenome:</strong> ${sobrenome.value} ` +
+        ` <strong>Peso:</strong> ${peso.value} <strong> Altura:</strong> ${altura.value}</p>`;
 
     }
     //dispara um evento de submit
